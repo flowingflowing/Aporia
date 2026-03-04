@@ -151,7 +151,7 @@ export default function Stats() {
 
         {/* 4. 전공 분포 (많은 순) */}
         <div style={styles.chartBox}>
-          <h3 style={styles.chartTitle}>전공 분포 (많은 순)</h3>
+          <h3 style={styles.chartTitle}>전공 분포</h3>
           <div style={styles.barContainer}>
             <Bar 
               data={majorChartData} 
